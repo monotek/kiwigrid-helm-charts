@@ -1,0 +1,3 @@
+{{- if (eq "" .Values.gcpCredentials)}}
+No Service Acoount key defined for this release. Please provide base64 encoded service account key.
+{{- end}}
