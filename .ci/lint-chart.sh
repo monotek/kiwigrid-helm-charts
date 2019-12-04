@@ -9,7 +9,7 @@ CONFIG_DIR=".ci"
 GIT_REPO="https://github.com/kiwigrid/helm-charts"
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 
-echo $REPO_ROOT
+echo "$REPO_ROOT"
 
 git remote add k8s "${GIT_REPO}"
 git fetch k8s master
