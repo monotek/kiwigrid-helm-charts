@@ -6,7 +6,7 @@
 set -o errexit
 
 CONFIG_DIR=".ci"
-GIT_REPO="https://github.com/monotek/helm-charts"
+GIT_REPO="https://github.com/kiwigrid/helm-charts"
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 
 ls -al
