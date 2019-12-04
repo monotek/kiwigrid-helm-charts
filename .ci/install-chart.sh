@@ -11,7 +11,6 @@ WORKDIR="/workdir"
 CLUSTER_NAME="chart-testing"
 DOCKER_NAME="ct"
 
-
 echo -e "\\nTesting in Kubernetes ${K8S_VERSION}\\n"
 
 run_ct_container() {
